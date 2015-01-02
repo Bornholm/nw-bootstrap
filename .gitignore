@@ -1,0 +1,4 @@
+/build
+/node_modules
+/node-webkit
+/libudev.so.0

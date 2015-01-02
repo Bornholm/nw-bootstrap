@@ -1,0 +1,35 @@
+{
+  "name": "nw-bootstrap",
+  "version": "0.0.0",
+  "description": "NW Bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No tests specified.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bornholm/nw-bootstrap.git"
+  },
+  "author": "William Petit <william.petit@ptitcloud.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bornholm/nw-bootstrap/issues"
+  },
+  "window": {
+    "show": true,
+    "toolbar": true,
+    "position": "center",
+    "title": "NW Bootstrap"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-jshint": "~0.7.1",
+    "nodeunit": "~0.8.2",
+    "grunt-jsdoc": "~0.5.1",
+    "async": "~0.2.9",
+    "lodash": "~2.4.1",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-nw": "git+https://github.com/snap-project/grunt-nw.git#develop"
+  }
+}
